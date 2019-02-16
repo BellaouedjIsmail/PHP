@@ -23,6 +23,7 @@ $objet = new PDO('mysql:host=localhost;dbname=test','root','');
          $message = 'Errour : Retray Again Please !';
        }
        echo $message;
+    
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
