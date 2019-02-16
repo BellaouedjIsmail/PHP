@@ -57,12 +57,12 @@ if (isset($_GET['nom']) AND isset($_GET['pseudo']))
    echo $_GET['pseudo'], '<br  />';
  }
    /*forum  $_POST*/
-  /*if (isset($_POST['ch']))
+  if (isset($_POST['ch']))
   {
     $checkch=intval($_POST['ch']);
     $chiff=48;
     echo  'TU vas ajouter ',$_POST['ch'],' à 48 et la resultat est: ',$chiff+ $checkch ;
-  }
+  }/*
   ?>
   <form action="" method="post">
     <input type='text' name='ch' value="TON NOMBRE ICI!" />
@@ -75,7 +75,7 @@ if (isset($_GET['nom']) AND isset($_GET['pseudo']))
 
 
 
-*/
+
 ?>
 
 <!DOCTYPE html>
@@ -105,3 +105,5 @@ if (isset($_GET['nom']) AND isset($_GET['pseudo']))
 
   </body>
 </html>
+
+*/?>
