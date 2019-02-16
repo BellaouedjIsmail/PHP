@@ -24,7 +24,7 @@
       <label for="Prenom">Prenom </label>
       <input type="text" name="LastName">
     </p>
-    
+
     <p><input type="submit" value="Sign up"></p>
 
    </form>
